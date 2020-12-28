@@ -27,3 +27,6 @@ File structure used for project.
 │   └── val_record.tfrecords
 └── train_model.py
 ```
+
+# Sample prediction
+![alt text](sample_pred.png)
