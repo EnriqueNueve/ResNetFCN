@@ -10,6 +10,9 @@ A tf2 implementation of a FCN (using a ResNet for transfer learning) over the VO
 If you need to train the model not in a jupyter notebook (for example, on a remote server),
 the model can be trained by running train_model.py.
 
+# Download ResNetFCN_lite.tflite model
+Click here to download ResNetFCN_lite.tflite model https://drive.google.com/file/d/1Y_S2lopNo7Ni37XyfwpqhK5pKJC_lNYO/view?usp=sharing
+
 # Run model in docker container 
 Within the folder ResNetFCN_app, there is a set of files to run the model in a docker container.
 1. Build docker container: docker build -t resnetfcn_app .
