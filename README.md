@@ -17,10 +17,21 @@ File structure used for project.
 ├── DataPrep.ipynb
 ├── Inference.ipynb
 ├── ModelPrep.ipynb
+├── ResNetFCN_App
+│   ├── Dockerfile
+│   ├── output
+│   │   └── pred_img_mask.jpg
+│   ├── requirements.txt
+│   ├── resnetfcn_app.py
+│   ├── resnetfcn_lite.tflite
+│   └── test_pic.jpg
 ├── ResNetFCN_VOC2012.h5
 ├── VOCdevkit.zip
 ├── f16_lite_model
 │   └── ResNetFCN_VOC2012_f16.tflite
+├── img_mask.jpg
+├── pred_img_mask.jpg
+├── sample_pred.png
 ├── test_pic.jpg
 ├── tfData
 │   ├── train_record.tfrecords
