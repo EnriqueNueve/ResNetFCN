@@ -1,5 +1,5 @@
 # docker build -t resnetfcn_app .
-# docker run -v $(pwd)/output:/usr/src/app/output resnetfcn_app
+# docker run -e IMG_PATH='<test_img.jpg>' -v $(pwd)/output:/usr/src/app/output -v $(pwd)/<test_img.jpg>:/usr/src/app/<test_img.jpg> resnetfcn_app
 
 # Set python:3.7 image
 FROM python:3.7
@@ -19,4 +19,4 @@ ADD resnetfcn_lite.tflite ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Run python file
-CMD ["python3","./resnetfcn_app.py"]
+ENTRYPOINT ["python3","./resnetfcn_app.py"]

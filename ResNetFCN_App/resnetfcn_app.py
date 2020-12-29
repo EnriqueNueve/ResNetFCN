@@ -2,6 +2,7 @@
 
 ##########################
 
+import os
 import numpy as np
 import tensorflow as tf
 from PIL import Image , ImageOps
@@ -11,7 +12,9 @@ import matplotlib.image as mpimg
 ##########################
 
 # Passed img path
-img_path = "test_pic.jpg"
+#img_path = "test_pic.jpg"
+img_path = os.environ["IMG_PATH"]
+print("Passed file path: {}".format(img_path))
 
 ##########################
 
