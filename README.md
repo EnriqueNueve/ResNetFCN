@@ -29,4 +29,4 @@ File structure used for project.
 ```
 
 # Sample prediction
-![alt text](sample_pred.png)
+![alt text](pred_img_mask.png)
