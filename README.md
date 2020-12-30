@@ -16,8 +16,8 @@ Click here to download ResNetFCN_lite.tflite model https://drive.google.com/file
 # Run model in docker container 
 Within the folder ResNetFCN_app, there is a set of files to run the model in a docker container.
 1. Build docker container: docker build -t resnetfcn_app .
-2. Run docker container (replace <test_img.jpg> with desired test img file name): docker run -e IMG_PATH='<test_img.jpg>' -v $(pwd)/output:/usr/src/app/output -v $(pwd)/<test_img.jpg>:/usr/src/app/<test_img.jpg> resnetfcn_app
-3. Results are placed into the folder called output. 
+2. Compile executable bash script: chmod u+x ResNetFCN_App.sh
+3. Run compiled bash script (results are placed into the folder called output): ./ResNetFCN_App.sh "<test_pic.jpg>" 
 
 # File structure
 File structure used for project.
