@@ -11,7 +11,7 @@ If you need to train the model not in a jupyter notebook (for example, on a remo
 the model can be trained by running train_model.py.
 
 # Download ResNetFCN_lite.tflite model
-Click here to download ResNetFCN_lite.tflite model https://drive.google.com/file/d/1Y_S2lopNo7Ni37XyfwpqhK5pKJC_lNYO/view?usp=sharing
+Click here to download trained ResNetFCN_lite.tflite model https://drive.google.com/file/d/1Y_S2lopNo7Ni37XyfwpqhK5pKJC_lNYO/view?usp=sharing
 
 # Run model in docker container 
 Within the folder ResNetFCN_app, there is a set of files to run the model in a docker container.
@@ -28,6 +28,7 @@ File structure used for project.
 ├── ModelPrep.ipynb
 ├── ResNetFCN_App
 │   ├── Dockerfile
+│   ├── ResNetFCN_App.sh
 │   ├── output
 │   │   └── pred_img_mask.jpg
 │   ├── requirements.txt
